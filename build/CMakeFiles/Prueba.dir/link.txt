@@ -1,1 +1,0 @@
-/usr/bin/g++-5    -std=c++1y -Wall -Wextra -g   CMakeFiles/Prueba.dir/main.o  -o Prueba -rdynamic 

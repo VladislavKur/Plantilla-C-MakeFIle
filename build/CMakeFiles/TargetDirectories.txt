@@ -1,3 +1,0 @@
-/home/magiic/Escritorio/plantilla-sfml_v2/build/CMakeFiles/edit_cache.dir
-/home/magiic/Escritorio/plantilla-sfml_v2/build/CMakeFiles/rebuild_cache.dir
-/home/magiic/Escritorio/plantilla-sfml_v2/build/CMakeFiles/Prueba.dir
