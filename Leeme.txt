@@ -21,6 +21,11 @@ crear una carpeta con un CMakeLists.txt que contenga el .cpp y enlanzarlo en el 
 -------------------------------
 Si salta error en BUILD es cosa de Cmakelists 
 
+
+Si se quieren crear varios ejecutables tiene que estar tanto en "launch.json" como en CMakeLists.txt (principal) Lo pondre comentado.
+
+si el .json da problemas comprobar "MIMode": "gdb" gdb puede ser lldb otro compilador de c++
+
 ###############
 
 
