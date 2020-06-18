@@ -9,6 +9,20 @@ gcc main.cpp -o nombreEjecutable      // comando para compilar main.cpp con gcc 
 ./nombreEjecutable                    // ejecutar ejecutable
 
 
+###############
+
+En esta plantilla ya esta creado para que se auto gestione con MakeFile, solo habrá que añadir clases como en el ejemplo de "ej_modules", es decir,
+crear una carpeta con un CMakeLists.txt que contenga el .cpp y enlanzarlo en el CMakeLists.txt Principal -->
+--------------------------------
+|| add_library(libModulos STATIC) ||
+|| add_subdirectory(ej_modulos)   ||
+ 
+||target_link_libraries(Prueba libModulos) ||
+-------------------------------
+Si salta error en BUILD es cosa de Cmakelists 
+
+###############
+
 
 
 
@@ -55,5 +69,7 @@ git branch nombre // te mueve a esa rama
 1.3.- git add "nombre en rojo"
 1-4.- git commit -m "nombre" //otra vez
 
-2.- git push (subir)// git pull (descargar) !!!!!!!!!!!!!!!!!!!!!!!!!! //NOTA !!!!!!!!!!!!!!!!!!!!!!!!!!!! Cuando se hace pull, se borra la carpeta "build" --> se va Vscode Cmake --> "Configure all Projects" (te crea el build) Y ya puedes compilar
+2.- git push (subir)// git pull (descargar) 
+!!!!!!!!!!!!!!!!!!!!!!!!!! //NOTA !!!!!!!!!!!!!!!!!!!!!!!!!!!! 
+Cuando se hace pull, se borra la carpeta "build" --> se va Vscode Cmake --> "Configure all Projects" (te crea el build) Y ya puedes compilar
 2.2 se puede crear un archivo .gitignore con dentro "/build" para que no suba build y no tener que hacer el punto 2.
